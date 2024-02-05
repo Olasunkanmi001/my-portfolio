@@ -7,6 +7,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: sans-serif;
+  
 }
 header{
     width: 100vw;
@@ -16,19 +17,26 @@ header{
     /* position: fixed; */
     justify-content: space-around;
     padding-top: 30px;
+    transition: all 1s;
+
 }
 #link{
-    display: grid;
-}
-header a{
     display: none;
+}
+
+header a{
+    display: grid;
     color: #929292;
     margin: 10px;
     text-decoration: none;
 }
+
+
+
 #hamburger{
     display: flex;
 }
+
 header button{
 width: 60px;
 height: 40px;
@@ -46,30 +54,31 @@ margin-left: 160px;
     justify-content: space-between;
 
 }
-#dhomediv{
+#home{
 
 }
-#dhomediv h1{
+#home h1{
     font-size:40px;
     margin-bottom: 20px;
 }
 
-#dhomediv h5{
+#home h5{
     color: #767676;
     font-size: large;
     width: 301px;
     margin-bottom: 20px;
 }
-#dhomediv a{
+#home a{
     margin: 10px;
 }
+
 #circle{
-    width: 400px;
+    /* width: 400px; */
     height: 400px;
     border-radius: 50%;
 }
 #circle img{
-    width: 400px;
+    /* width: 400px; */
     height: 400px;
     border-radius: 50%;
     display: none;
@@ -84,7 +93,7 @@ margin-left: 160px;
     display: none;
 }
 #sndpic img{
-    width: 400px;
+    /* width: 400px; */
     height: 400px;
     border-radius: 15px;
     display: none;
@@ -95,6 +104,8 @@ margin-left: 160px;
 #about h1{
     font-weight:light ;
     margin-bottom: 30px;
+    text-align: center;
+    
 }
 #about strong{
     font-size: small;
@@ -148,4 +159,267 @@ padding: 10px;
     background-color: white;
     margin: 15px;
 }
+#portfoliodiv{
+    width: 100vw;
+    padding-top: 60px;
+  
+    /* margin: auto; */
+    /* text-align: center; */
+
+}
+#portfoliodiv h2{
+    text-align: center;
+    font-weight: light;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+#portfoliodiv h5{
+    color: #929292;
+    text-align: center;
+    width: 250px;
+    font-size: large;
+    font-weight: lighter;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#portfoliodiv div{
+ /* border: 1px solid #929292;
+ width: 350px;
+ border-radius: 5px;
+ padding-left:20px;
+ padding-top: 20px;
+ margin-bottom: 10px; */
+}
+.colume div{
+    border: 1px solid #929292;
+    width: 350px;
+    border-radius: 5px;
+    padding-left:20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    background-color:#929292;
+}
+#img{
+    width: 300px;
+    height: 350px;
+    align-items: center;
+}
+#portfoliodiv div h1{
+    font-weight:lighter;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+#portfoliodiv div h6{
+    color: #929292;
+    font-size: large;
+}
+#portfoliodiv div a{
+    margin: 15px;
+    
+}
+#contactdiv{
+    width: 100vw;
+    font-weight: lighter;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    /* padding-left: 10px; */
+
+}
+#contactdiv div{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: auto;
+    font-weight: lighter;
+
+}
+#contactdiv div input{
+    height: 50px;
+    width: 150px;
+    padding-left: 15px;
+    border: 1px solid #B2B4B9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.message{
+    width: 300px;
+    height: 150px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    border: 1px solid #B2B4B9;
+    margin-bottom: 30px;
+
+}
+.shift{
+    margin-left: -190px;
+}
+.shiftt{
+    margin-right: 60px;
+}
+#contactdiv button{
+width: 300px;
+height: 50px;
+border-radius: 10px;
+background-color: #106CF6;
+border: none;
+color: white;
+font-size: larger;
+margin-bottom: 40px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 30px;
+    background-color: #212529;
+    width: 100vw;
+    height: 100px;
+    color: #585C61;
+    font-size: larger;
+    margin-left: -10px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    gap: 20px;
+}
+#white{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+#black{
+    width: 30px;
+    height: 30px;
+    margin-left: -50px;
+    display: none;
+    border: none;
+    border-radius: 50%;
+}
+#white img{
+    width: 30px;
+    height: 30px;
+}
+#black img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+@media (min-width:730px) {
+    #hamburger h3{
+        font-size: xx-large;
+    }
+.colume {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+   }
+   #sndpic{
+    display: grid;
+}
+#sndpic img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    display: grid;
+}
+#contactdiv div {
+    width: 700px;
+}
+#contactdiv div input{
+    height: 50px;
+    width: 300px;
+   
+}
+.shiftt{
+    margin-right: 210px;
+}
+#contactdiv button{
+    width: 500px;
+    height: 50px;
+    
+    }
+    .message{
+        width: 500px;
+     
+
+}
+.shift{
+    margin-left: -380px;
+}
+
+}
+@media (min-width:851px){
+    #hamburger button{
+        display: none;
+    }
+    #link{
+        display: flex;
+    }
+    header {
+        display: flex;
+        position: fixed;
+    background-color: white;
+    }
+  #sndpic{
+    padding-left: 20px;
+  }
+  #homediv{
+    padding-top: 150px;
+    
+  }
+ 
+ 
+}
+@media (min-width:1114px){
+    #circle{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
+    #circle img{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        display: grid;
+    }
+    .colume {
+        /* width: 450px; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+       }
+       .colume div{
+        width: 500px;
+       }
+       #img{
+        width: 450px;
+       }
+       header{
+        width: 100vw;
+       }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

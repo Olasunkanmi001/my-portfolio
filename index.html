@@ -9,16 +9,16 @@
 <body>
     <header>
         <div id="hamburger">
-            <h3>Olanrewaju A.O</h3>
+            <h3 id="ch" >Olanrewaju A.O</h3>
 
-            <button>        <img src="hamburger-3.png">  </button>
+            <button onclick="headd()"> <img src="hamburger-3.png">  </button>
 
         </div>
 
         <div id="link">
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#Resume">Resume</a>
+            <a href="#resume">Resume</a>
             <a href="#project">Project</a>
             <a href="#contact">Contact</a>
 
@@ -26,7 +26,7 @@
     </header>
 
     <div id="homediv">
-        <div id="dhomediv">
+        <div id="home">
             <h1>I'm a Front-End Developer </h1>
             <h5>Hi, I'm Olasunkanmi Olanrewaju A., A passionate Front-end Developer based in Ibadan, Nigeria. 👨‍💻</h5>
             <a href="https://github.com/OlanrewajuAbidemi"><img src="github.png"></a>
@@ -34,7 +34,7 @@
         
         </div>
         <div id="imgdiv">
-            <div id="circle"> <img src="728BB0F0-5D77-4CAF-8F4F-05B8A5516BB0.JPG"></div>
+            <div id="circle"> <img src="0744BDA3-E39B-4991-8176-21CF329B2510.JPG"></div>
         </div>
 
     </div>
@@ -42,20 +42,20 @@
 
     <div id="aboutdiv">
         <div id="sndpic">
-            <img src="728BB0F0-5D77-4CAF-8F4F-05B8A5516BB0.JPG">
+            <img src="0744BDA3-E39B-4991-8176-21CF329B2510.JPG">
 
         </div>
         <div id="about" >
             <h1>About Me.</h1>
-            <strong>NAME:</strong>
+            <strong class="name">NAME:</strong>
             <i>Olasunkanmi Olanrewaju A.</i> <br> <br>
-            <strong>DOB:</strong>
+            <strong class="dob">DOB:</strong>
             <i>Jan-16</i><br> <br>
-            <strong>ADDRESS:</strong>
+            <strong class="address">ADDRESS:</strong>
             <i>Ibadan,Nigeria</i><br> <br>
-            <strong>EMAIL:</strong>
+            <strong class="email">EMAIL:</strong>
             <i>fuadolasunkanmi9@gmail.com</i><br> <br>
-            <strong>PHONE</strong>
+            <strong class="phone">PHONE</strong>
             <i>+234 704 326 9896</i><br> <br>
 
             <button>Download CV</button>
@@ -65,9 +65,9 @@
     </div>
     <div id="resumediv">
         <div id="resume">
-            <h1>Resume</h1>
+            <h1 class="resume">Resume</h1>
             <h5>Knowledgeable Frontend Developer with expert knowledge of HTML, CSS, Bootstrap, Jquery, JavaScript ,Reactjs. Skilled in generating sites for both desktop and mobile-browsers.  bringing designs to life and ensuring a seamless user experience. I am a quick learner and thrive in challenging environments where I can continue to develop my skills and knowledge.</h5>
-            <h1>Object</h1>
+            <h1 class="object">Object</h1>
             <h5>Enthusiastic and detail-oriented Front-End Developer with one year of experience creating innovative and responsive web applications. Adept at collaborating with cross-functional teams to deliver high-quality, user-centric solutions. Seeking an opportunity to contribute technical skills and creativity to a dynamic development team.</h5>
         </div>
 
@@ -79,24 +79,166 @@
             <button><img src="bootstrap.png"></button>
             <button><img src="atom.png"></button>
             <button><img src="github-2.png"></button>
+            <button><img src="figma.png"></button>
             
         </div>
         <div id="portfoliodiv">
-            <h2>My portfolio</h2>
+            
+            <h2 id="project">My portfolio</h2>
             <h5>I design and develop services for customers of all sizes, specializing in creating
                 stylish, modern websites, web services and online stores.</h5>
 
                 <div>
+                    <div class="colume">
+
+                <div>
                     <h1>Scientific calculator</h1>
                     <h6>html,css,JavaScript</h6>
-                    <img src="Screen Shot 2024-01-23 at 5.01.22 PM.png">
+                    <img id="img" src="Screen Shot 2024-01-23 at 5.01.22 PM.png"> <br>
                     <a href="https://github.com/OlanrewajuAbidemi/Scientific-calculator-"><img src="github-2.png"></a>
+                    <a href="https://github.com/OlanrewajuAbidemi/Scientific-calculator-"><img src="link.png"></a>
                 </div>
+                <div>
+                    <h1>Quiz App</h1>
+                    <h6>html,css,JavaScript</h6>
+                    <img id="img" src="Screen Shot 2024-01-24 at 3.07.12 AM.png">
+                    <a href="https://github.com/OlanrewajuAbidemi/Quiz-app.git"><img src="github-2.png"></a>
+                    <a href="https://github.com/OlanrewajuAbidemi/Quiz-app.git"><img src="link.png"></a>
+                </div>
+                <div>
+                    <h1>Iphone calculator</h1>
+                    <h6>html,css,JavaScript</h6>
+                    <img id="img" src="Screen Shot 2024-01-24 at 3.11.50 AM.png">
+                    <a href="https://github.com/OlanrewajuAbidemi/Iphone-calculator.git"><img src="github-2.png"></a>
+                    <a href="https://github.com/OlanrewajuAbidemi/Iphone-calculator.git"><img src="link.png"></a>
+                    
+                </div>
+                <div>
+                    <h1>Random User Generator</h1>
+                    <h6>html,css,JavaScript</h6>
+                    <img id="img" src="Screen Shot 2024-01-24 at 3.08.43 AM.png"> <br>
+                    <!-- <img id="img" src="Screen Shot 2024-01-24 at 3.08.43 AM.png"><br><br> -->
+
+                    <a href="https://github.com/OlanrewajuAbidemi/Random-user-generator.git"><img src="github-2.png"></a>
+                    <a href="https://github.com/OlanrewajuAbidemi/Random-user-generator.git"><img src="link.png"></a>
+                    
+                </div>
+                <div>
+                    <h1>Learning app for kids</h1>
+                    <h6>html,css,JavaScript</h6>
+                    <img id="img" src="Screen Shot 2024-01-24 at 3.31.31 AM.png">
+                    <a href="https://github.com/OlanrewajuAbidemi/Learning-APP.git"><img src="github-2.png"></a>
+                    <a href="https://github.com/OlanrewajuAbidemi/Learning-APP.git"><img src="link.png"></a>
+                    
+                </div>
+                <div>
+                    <h1>Multiplication Table</h1>
+                    <h6>html,css,JavaScript</h6>
+                    <img id="img" src="Screen Shot 2024-01-24 at 3.04.18 AM.png">
+                    <a href="https://github.com/OlanrewajuAbidemi/Multiplication-table.git"><img src="github-2.png"></a>
+                    <a href="https://github.com/OlanrewajuAbidemi/Multiplication-table.git"><img src="link.png"></a>
+                    
+                </div>
+            </div>
+                
 
         </div>
 
         
     </div>
+    <div id="contactdiv">
+        <div id="contact">
+            <h4>Your Name</h4>
+            <h4 class="shiftt">Your Email</h4>
+        </div>
+        <div>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Enter email">
+        </div>
+        <h4 class="shift">Your message</h4>
+        <input class="message" type="text" placeholder="Your Message Here....."> <br>
+        <button>Send Message</button>
+        
+    </div>
+    <footer>
+        <div>
+            <h5>Copyright© 2024. All right are reserved.</h5>
+        </div>
+        <div>
+            <a href="https://github.com/OlanrewajuAbidemi"><img src="github-3.png"></a>
+            <a href="https://www.linkedin.com/in/olasunkanmi-olanrewaju-333b192a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="linkedin-3.png"></a>
+        </div>
+        <div>
+           <button onclick="dark()" id="white"><img  src="moon-phase-symbol-3.png"> </button> 
+           <button onclick="light()" id="black"><img  src="moon-phase-symbol-2.png"></button> 
+        </div>
+    </footer>
+
+
+
+    
+
+
+
+
+
+
+
+
+    <script>
+        const headd = () => {
+            document.getElementById("link").style.display = "grid";
+            document.querySelector("header").style.height = "300px";
+            document.querySelector("header a").classList.add("slideIn");
+           
+            console.log("hello")
+
+            
+        }
+        
+        const dark = () => {
+
+            document.getElementById("black").style.display = "grid"
+            document.getElementById("white").style.display = "none"
+            document.querySelector("body").style.backgroundColor = "black"
+            document.querySelector("header").style.backgroundColor = "black"
+            document.getElementById("ch").style.color = "white"
+            document.querySelector("#home h1"). style. color = "white"
+            document.querySelector("#about h1").style.color = "white"
+            document.querySelector(".name").style.color = "white"
+            document.querySelector(".dob").style.color = "white"
+            document.querySelector(".address").style.color = "white"
+            document.querySelector(".email").style.color = "white"
+            document.querySelector(".phone").style.color = "white"
+            document.querySelector("#about button").style. border = "1px solid white"
+            document.querySelector(".resume").style.color = "white"
+            document.querySelector(".object").style.color = "white"
+            document.getElementById("project").style.color = "white"
+            
+        }
+        const light = () => {
+document.getElementById("white").style.display = "none"
+document.getElementById("black"). display = "grid"
+document.querySelector("body").style.backgroundColor = "white"
+document.querySelector("header").style.backgroundColor = "white"
+document.getElementById("ch").style.color = "black"
+document.querySelector("#home h1").style. color = "black"
+document.querySelector("about h1").style. color = "black"
+document.querySelector(".name").style.color = "black"
+document.querySelector(".dob").style.color = "black"
+document.querySelector(".address").style.color = "black"
+document.querySelector(".email").style.color = "black"
+document.querySelector(".phone").style.color = "black"
+document.querySelector("#about button").style. border = "1px solid black"
+document.querySelector(".resume").style.color = "black"
+document.querySelector(".object").style.color = "black"
+document.getElementById("project").style.color = "black"
+
+}
+
+
+
+    </script>
 
 
     
