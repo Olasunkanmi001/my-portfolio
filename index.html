@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
     <title>portfolio</title>
 </head>
 <body>
-    <header>
-        <div id="hamburger">
-            <h3 id="ch" >Olanrewaju A.O</h3>
+    <header >
+        <div data-aos="fade-down" id="hamburger">
+            <h3 id="ch"  >Olanrewaju A.O</h3>
 
-            <button onclick="headd()"> <img src="hamburger-3.png">  </button>
+            <button id="fp" onclick="headd()"> <img src="hamburger-3.png">  </button>
+            <button id="sp" onclick="closes()"> <img src="close-5.png">  </button>
 
         </div>
 
-        <div id="link">
+        <div data-aos="fade-down" id="link">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#resume">Resume</a>
@@ -25,7 +29,7 @@
         </div>
     </header>
 
-    <div id="homediv">
+    <div id="homediv" data-aos="fade-left">
         <div id="home">
             <h1>I'm a Front-End Developer </h1>
             <h5>Hi, I'm Olasunkanmi Olanrewaju A., A passionate Front-end Developer based in Ibadan, Nigeria. 👨‍💻</h5>
@@ -40,7 +44,7 @@
     </div>
 
 
-    <div id="aboutdiv">
+    <div id="aboutdiv" data-aos="fade-down">
         <div id="sndpic">
             <img src="0744BDA3-E39B-4991-8176-21CF329B2510.JPG">
 
@@ -63,7 +67,7 @@
         </div>
 
     </div>
-    <div id="resumediv">
+    <div id="resumediv" data-aos="fade-down">
         <div id="resume">
             <h1 class="resume">Resume</h1>
             <h5>Knowledgeable Frontend Developer with expert knowledge of HTML, CSS, Bootstrap, Jquery, JavaScript ,Reactjs. Skilled in generating sites for both desktop and mobile-browsers.  bringing designs to life and ensuring a seamless user experience. I am a quick learner and thrive in challenging environments where I can continue to develop my skills and knowledge.</h5>
@@ -71,7 +75,7 @@
             <h5>Enthusiastic and detail-oriented Front-End Developer with one year of experience creating innovative and responsive web applications. Adept at collaborating with cross-functional teams to deliver high-quality, user-centric solutions. Seeking an opportunity to contribute technical skills and creativity to a dynamic development team.</h5>
         </div>
 
-        <div id="frontend">
+        <div id="frontend" data-aos="fade-left">
             <strong>Frontend</strong>
             <button><img src="html.png"></button>
             <button><img src="social.png"></button>
@@ -82,30 +86,30 @@
             <button><img src="figma.png"></button>
             
         </div>
-        <div id="portfoliodiv">
+        <div id="portfoliodiv" data-aos="fade-down">
             
             <h2 id="project">My portfolio</h2>
             <h5>I design and develop services for customers of all sizes, specializing in creating
                 stylish, modern websites, web services and online stores.</h5>
 
-                <div>
+                <div data-aos="fade-down">
                     <div class="colume">
 
-                <div>
+                <div data-aos="fade-up">
                     <h1>Scientific calculator</h1>
                     <h6>html,css,JavaScript</h6>
                     <img id="img" src="Screen Shot 2024-01-23 at 5.01.22 PM.png"> <br>
                     <a href="https://github.com/OlanrewajuAbidemi/Scientific-calculator-"><img src="github-2.png"></a>
                     <a href="https://github.com/OlanrewajuAbidemi/Scientific-calculator-"><img src="link.png"></a>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <h1>Quiz App</h1>
                     <h6>html,css,JavaScript</h6>
                     <img id="img" src="Screen Shot 2024-01-24 at 3.07.12 AM.png">
                     <a href="https://github.com/OlanrewajuAbidemi/Quiz-app.git"><img src="github-2.png"></a>
                     <a href="https://github.com/OlanrewajuAbidemi/Quiz-app.git"><img src="link.png"></a>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <h1>Iphone calculator</h1>
                     <h6>html,css,JavaScript</h6>
                     <img id="img" src="Screen Shot 2024-01-24 at 3.11.50 AM.png">
@@ -113,7 +117,7 @@
                     <a href="https://github.com/OlanrewajuAbidemi/Iphone-calculator.git"><img src="link.png"></a>
                     
                 </div>
-                <div>
+                <div  data-aos="fade-up">
                     <h1>Random User Generator</h1>
                     <h6>html,css,JavaScript</h6>
                     <img id="img" src="Screen Shot 2024-01-24 at 3.08.43 AM.png"> <br>
@@ -123,7 +127,7 @@
                     <a href="https://github.com/OlanrewajuAbidemi/Random-user-generator.git"><img src="link.png"></a>
                     
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <h1>Learning app for kids</h1>
                     <h6>html,css,JavaScript</h6>
                     <img id="img" src="Screen Shot 2024-01-24 at 3.31.31 AM.png">
@@ -131,7 +135,7 @@
                     <a href="https://github.com/OlanrewajuAbidemi/Learning-APP.git"><img src="link.png"></a>
                     
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <h1>Multiplication Table</h1>
                     <h6>html,css,JavaScript</h6>
                     <img id="img" src="Screen Shot 2024-01-24 at 3.04.18 AM.png">
@@ -146,7 +150,7 @@
 
         
     </div>
-    <div id="contactdiv">
+    <div id="contactdiv" data-aos="fade-down">
         <div id="contact">
             <h4>Your Name</h4>
             <h4 class="shiftt">Your Email</h4>
@@ -160,7 +164,7 @@
         <button>Send Message</button>
         
     </div>
-    <footer>
+    <footer >
         <div>
             <h5>Copyright© 2024. All right are reserved.</h5>
         </div>
@@ -183,17 +187,32 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
     <script>
+       
+      AOS.init({
+        duration:1000,
+        offset:200,
+    });
+
+
         const headd = () => {
             document.getElementById("link").style.display = "grid";
             document.querySelector("header").style.height = "300px";
             document.querySelector("header a").classList.add("slideIn");
-           
-            console.log("hello")
-
+            document.getElementById("fp").style. display = "none"
+            document.getElementById("sp").style. display = "grid"
             
+        }
+        const closes = () => {
+            document.getElementById("sp"). style. display = "none"
+            document.getElementById("fp"). style. display = "grid"
+           
+            document.querySelector("header").style.height = "100px";
+            
+            document.getElementById("link").style.display = "none"
+
         }
         
         const dark = () => {
@@ -217,13 +236,14 @@
             
         }
         const light = () => {
-document.getElementById("white").style.display = "none"
-document.getElementById("black"). display = "grid"
+            document.getElementById("black").style.display = "none"
+document.getElementById("white").style.display = "grid"
+// document.getElementById("black"). style. display = "grid"
 document.querySelector("body").style.backgroundColor = "white"
 document.querySelector("header").style.backgroundColor = "white"
 document.getElementById("ch").style.color = "black"
 document.querySelector("#home h1").style. color = "black"
-document.querySelector("about h1").style. color = "black"
+document.querySelector("#about h1").style. color = "black"
 document.querySelector(".name").style.color = "black"
 document.querySelector(".dob").style.color = "black"
 document.querySelector(".address").style.color = "black"
